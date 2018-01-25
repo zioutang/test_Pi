@@ -4,7 +4,7 @@ Only using a uniform random generator (0,1) and basic mathematic operators (+ - 
 
 ## Description of solution 
 
-Assuming we have a coordinate axis x and y. Imaging an squre S that has four edge points:[0,0], [1,0], [0,1], [1,1] with the certer is [0.25, 0.25]. If we draw a circle C with the ceter of S and the r equals 0.25. Then we sould have C that exactly tangents the sides of the S. 
+Assuming we have a coordinate axis x and y. Imaging an squre S that has four edge points:[0,0], [1,0], [0,1], [1,1] with the certer is [0.5, 0.5]. If we draw a circle C with the ceter of S and the r equals 0.5. Then we sould have C that exactly tangents the sides of the S. 
 
 If we can find the area of C then we can easily using area =  p * r^2 to finde the solution. Since we already know the area of S which is 1. Thus the problem is how to find area of C by using area of S.
 
